@@ -1,4 +1,4 @@
-# Makefile for Arbitrary Precision Calculator Project
+# Makefile for Arbitrary Precision Calculator
 # -----------------------------------------------
 # Description:
 #   - Collects all .c files from the current directory
