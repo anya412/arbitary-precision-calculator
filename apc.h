@@ -38,8 +38,6 @@ typedef struct node
 	struct node *next;
 } Dlist;
 
-/* Include the prototypes here */
-
 /* Input Validation*/
 int validate_input_args(char **argv);
 
@@ -61,7 +59,7 @@ int division(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist *
 /* Modulus */
 int modulus(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist **headR, Dlist **tailR);
 
-/* power */
+/* Power */
 int power(Dlist **head1, Dlist **tail1, Dlist **head2, Dlist **tail2, Dlist **headR, Dlist **tailR);
 
 /* Print List */
@@ -72,5 +70,6 @@ char check_operation_type(char ** argv, Dlist *head1, Dlist *head2, int * sign_f
 
 /* To check valid exponent for power operation */
 int check_exponent(char * exp);
+
 
 #endif
